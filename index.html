@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicativo de lista de tarefas TaskMaster">
+    <title>TaskMaster</title>
+    <link rel="shortcut icon" href="ico/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fa-solid fa-list-check"></i> TaskMaster</h1>
+            <button id="themeToggle" aria-label="Alternar tema"><i class="fa-solid fa-moon"></i></button>
+        </header>
+        <main>
+            <section class="task-input">
+                <input type="text" id="taskInput" placeholder="Adicionar nova tarefa..." aria-label="Nova tarefa">
+                <button id="addTask" aria-label="Adicionar tarefa"><i class="fa-solid fa-plus"></i></button>
+            </section>
+            <section class="search-filter">
+                <input type="text" id="searchInput" placeholder="Buscar tarefas..." aria-label="Buscar">
+                <div class="filters">
+                    <button class="filter active" data-filter="all">Todas</button>
+                    <button class="filter" data-filter="pending">Pendentes</button>
+                    <button class="filter" data-filter="completed">Concluídas</button>
+                </div>
+            </section>
+            <ul id="taskList" role="list" aria-label="Lista de tarefas"></ul>
+        </main>
+        <footer>
+            <p>Feito com carinho por Matheus</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
