@@ -47,7 +47,7 @@ Ele também salva seus dados automaticamente usando **localStorage** e permite a
 
 1. **Baixe ou clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/TaskMaster.git
+   git clone https://github.com/ColgateTotal12632/a.git
 
 2. Abra o arquivo index.html no seu navegador.
 
@@ -61,4 +61,4 @@ Desenvolvido com carinho por Matheus
 
 ---
 
-<p align="center"> Feito com 💙 usando HTML, CSS e JavaScript. </p> ```
+<p align="center"> Feito com 💙 usando HTML, CSS e JavaScript. </p>
